@@ -1,16 +1,16 @@
 # 忽略整个文件夹
 Dataset/*	
 # 但不要忽略文件夹本身				
-!Dataset/
+!Dataset/.gitkeep
 
 export_csv/*
-!export_csv/
+!export_csv/.gitkeep
 
 ros1_bags/*
-!ros1_bags/
+!ros1_bags/.gitkeep
 
 ros2_bags_db3/*
-!ros2_bags_db3/
+!ros2_bags_db3/.gitkeep
 
 ros2_bags_mcap/*
-!ros2_bags_mcap/
+!ros2_bags_mcap/.gitkeep
