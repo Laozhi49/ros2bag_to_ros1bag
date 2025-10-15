@@ -1,9 +1,16 @@
-Dataset/*					
+# 忽略整个文件夹
+Dataset/*	
+# 但不要忽略文件夹本身				
+!Dataset/
 
 export_csv/*
+!export_csv/
 
 ros1_bags/*
+!ros1_bags/
 
 ros2_bags_db3/*
+!ros2_bags_db3/
 
 ros2_bags_mcap/*
+!ros2_bags_mcap/
